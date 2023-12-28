@@ -155,7 +155,7 @@ dependencies:
       - speechrecognition==3.10.1
       - sqlalchemy==2.0.23
       - starlette==0.27.0
-      - streamlit==1.29.0
+      - streamlit
       - streamlit-mic-recorder
       - sympy==1.12
       - tenacity==8.2.3
