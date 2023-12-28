@@ -1,6 +1,6 @@
 streamlit==1.29.0
 SpeechRecognition==3.10.1
-streamlit-mic-recorder==0.0.4
+streamlit-mic-recorder
 
 pandas==2.1.4
 
