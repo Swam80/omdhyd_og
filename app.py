@@ -1,4 +1,7 @@
 # dependencies
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 import logging
 import streamlit as st
 from streamlit_mic_recorder import speech_to_text
