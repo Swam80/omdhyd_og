@@ -46,7 +46,7 @@ def initialize_app():
 
     # fetch the necessary collections from vector db
     st.session_state.p01_questions_collection = get_collection_from_vector_db(
-        vdb_path=(Path.cwd() / "src" / "data" / "chromadb").__str__(),
+        vdb_path=(Path.cwd() / "data" / "chromadb").__str__(),
         collection_name="question_collection",
     )
 
