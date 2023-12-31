@@ -3,7 +3,7 @@ streamlit-mic-recorder==0.0.4
 streamlit==1.29.0
 
 openpyxl
-
+pysqlite3-binary 
 pandas==2.1.4
 
 python-dotenv==1.0.0
