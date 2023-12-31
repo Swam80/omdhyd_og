@@ -1,6 +1,11 @@
 from dotenv import load_dotenv, find_dotenv
 import pandas as pd
 import os
+
+import pysqlite3
+import sys
+sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 import chromadb
 from chromadb.utils import embedding_functions
 
